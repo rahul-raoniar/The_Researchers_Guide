@@ -7,7 +7,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 `"If you have knowledge, let others light their candles in it." - Margaret Fuller` 
 
 
-##*This repository contains the following*
+## *This repository contains the following*
 
 * Blog posts 
 * Codes and instructions for 
