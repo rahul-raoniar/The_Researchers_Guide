@@ -41,8 +41,23 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
            + Deep Neural Network (h2o, Keras, MXNet packages etc.)
       + Unsupervised
         + Clustering
+          + K-means
+          + Hirarchical
+          + Model based
+          + Density Based
         + Association Analysis and Sequence Mining
         + Dimension Reduction
+          + Principal Component Analysis
+          + Multidimensional Scaling
+          + Singular Value Decomposition
+          + Non-linear dimension reduction (ISOMAP and Locally Linear Embeding)
+    + Model Evaluation
+      + Contigency Table
+      + Cross Validation
+      + Performance metrices (Metrics package)
+      + ROCR Curve
+      + F-measure
+      
         
       
       
@@ -55,24 +70,29 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 ### The upcoming tutorials will cover the following. 
 
 ** TS = Tutorial Series **
-* TS1. Introduction to R 
-* TS2. Function 
-* TS3. Loading, Data Extracting and Transforming 
-* TS4. Data Preparation 
-* TS5. Data Manipulation using dplyr and data.table packages 
-* TS6. Visualization using ggplot2 
+* TS 1. Introduction to R 
+* TS 2. Function 
+* TS 3. Loading, Data Extracting and Transforming 
+    + Base R, readr, readxl
+* TS 4. Data Preparation 
+    + Base R
+* TS 5. Data Manipulation 
+    + dplyr and data.table 
+* TS 6. Visualization using ggplot2 
     + Base R
     + ggplot2
-* TS7. Map preparation
+* TS 7. Map preparation
      + ggmap
      + tmap
      + map using rbokeh
-* TS8. Interactive ploting 
+* TS 8. Interactive ploting 
      + ggvis
      + plotly
      + rbokeh
-* TS9. R Markdown and Shiny report preparation 
-* TS10. Statistics with R 
+* TS 9. R Markdown and Shiny report preparation 
+     + rmarkdown
+     + shiny
+* TS 10. Statistics with R 
 * TS11. Supervised Machine learning 
    + Regression
    + Classification 
