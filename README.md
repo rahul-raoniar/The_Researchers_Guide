@@ -94,6 +94,8 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
      + rmarkdown
      + shiny
 * TS 10. Statistics with R 
+     + Basic statistics
+     + Statistical Tests and Inferences from Data
 * TS11. Supervised Machine learning 
    + Regression
    + Classification 
