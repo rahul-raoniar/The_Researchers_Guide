@@ -9,6 +9,8 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 ## *This is a R data Science Repository for Learning, Contributing and Improving Data Science Literacy*
 
+### This blog will include the following
+
 * Blog posts 
 * Codes and instructions for 
    + Loading data into R
