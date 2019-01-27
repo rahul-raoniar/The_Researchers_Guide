@@ -7,7 +7,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 `"If you have knowledge, let others light their candles in it." - Margaret Fuller` 
 
 
-## *This is a R data Science Repository for Learning, Contributing and Enhancing Data Science Literacy*
+## *This is a R data Science Repository for Learning, Contributing and Improving Data Science Literacy*
 
 * Blog posts 
 * Codes and instructions for 
