@@ -7,7 +7,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 `"If you have knowledge, let others light their candles in it." - Margaret Fuller` 
 
 
-*This repository contains the following*
+##*This repository contains the following*
 
 * Blog posts 
 * Codes and instructions for 
@@ -50,11 +50,11 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 * R codes in the form of scripts & markdown documents 
 
 
-The table of content
+## The table of content
 
-The upcoming tutorials will cover the following. 
+### The upcoming tutorials will cover the following. 
 
-** TS = Tutorial Series 
+** TS = Tutorial Series **
 * TS1. Introduction to R 
 * TS2. Function 
 * TS3. Loading, Data Extracting and Transforming 
