@@ -1,4 +1,4 @@
-# Rahul_CODIFY
+# Welcome to Rahul_CODIFY blog posts
 
 
 Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Rahul_CODIFY ! 
@@ -7,7 +7,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 `"If you have knowledge, let others light their candles in it." - Margaret Fuller` 
 
 
-## *This repository contains the following*
+## *This is a R data Science Repository*
 
 * Blog posts 
 * Codes and instructions for 
@@ -61,8 +61,16 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 * TS4. Data Preparation 
 * TS5. Data Manipulation using dplyr and data.table packages 
 * TS6. Visualization using ggplot2 
-* TS7. ggmap (map preparation) 
-* TS8. Interactive plots using ggvis 
+    + Base R
+    + ggplot2
+* TS7. Map preparation
+     + ggmap
+     + tmap
+     + map using rbokeh
+* TS8. Interactive ploting 
+     + ggvis
+     + plotly
+     + rbokeh
 * TS9. R Markdown and Shiny report preparation 
 * TS10. Statistics with R 
 * TS11. Supervised Machine learning 
