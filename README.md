@@ -42,7 +42,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
       + Unsupervised
         + Clustering
         + Association Analysis and Sequence Mining
-      + Dimension Reduction
+        + Dimension Reduction
         
       
       
@@ -71,6 +71,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 * TS12. Unsupervised Machine learning with R
    + Clustering
    + Association Analysis and Sequence Mining
+   + Dimension Reduction
 
 
 
