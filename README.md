@@ -13,12 +13,12 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 * Codes and instructions for 
    + loading data into R
       + using base R and packages
-   * data manipulaton
-    + Using Base R
-    + dplyr
-    + forcats
-    + data.table
-   + data tidying
+   + data manipulaton
+      + Using Base R
+      + dplyr
+      + forcats
+      + data.table
+     + data tidying
     + tidyr package
     + broom package
    + visualization
