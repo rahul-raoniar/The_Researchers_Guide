@@ -11,18 +11,18 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 * Blog posts 
 * Codes and instructions for 
-   * loading data into R
-    * using base R and packages
+   + loading data into R
+      + using base R and packages
    * data manipulaton
-    * Using Base R
-    * dplyr
-    * forcats
-    * data.table
-   * data tidying
-    * tidyr package
-    * broom package
-   * visualization
-   * modelling
+    + Using Base R
+    + dplyr
+    + forcats
+    + data.table
+   + data tidying
+    + tidyr package
+    + broom package
+   + visualization
+   + modelling
 * Datasets
 * R codes in the form of scripts & markdown documents 
 
