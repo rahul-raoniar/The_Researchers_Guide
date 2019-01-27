@@ -39,6 +39,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
         + Neural Networks
            + shalow Neural Network (nntool, neuralnet packages)
            + Deep Neural Network (h2o, Keras, MXNet packages etc.)
+        + Auto ML (h2o package)
       + Unsupervised
         + Clustering
           + K-means
