@@ -11,23 +11,23 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 * Blog posts 
 * Codes and instructions for 
-   + loading data into R
+   + Loading data into R
       + using base R and packages
-   + data manipulaton
+   + Data manipulaton
       + Using Base R
       + dplyr
       + forcats
       + data.table
-    + data tidying
+    + Data tidying
       + tidyr package
       + broom package
-   + visualization
+   + Visualization
       + Base R
       + ggplot2
       + ggvis
       + rbokeh
       + plotly
-   + modelling
+   + Modelling
       + Supervised
         + Linear modles
         + Logit models (binary and multinominal classificatio)
@@ -35,10 +35,14 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
         + naive bayes classifier (Probabilistic models)
         + k-nearest neighbour (classification)
         + Ensemble learners (Boot strap aggregation, random forest, Boosting, Extreme gradient boosting)
-        + Support vector machines
-        + Neural networks
+        + Support Vector Machines
+        + Neural Networks
+           + shalow Neural Network (nntool, neuralnet packages)
+           + Deep Neural Network (h2o, Keras, MXNet packages etc.)
       + Unsupervised
         + Clustering
+        + Association Analysis and Sequence Mining
+      + Dimension Reduction
         
       
       
@@ -61,8 +65,13 @@ The upcoming tutorials will cover the following.
 * TS8. Interactive plots using ggvis 
 * TS9. R Markdown and Shiny report preparation 
 * TS10. Statistics with R 
-* TS11. Supervised Machine learning (Regression, Classification, SVM, Trees and Artificial Neural Networks) 
+* TS11. Supervised Machine learning 
+   + Regression
+   + Classification 
 * TS12. Unsupervised Machine learning with R
+   + Clustering
+   + Association Analysis and Sequence Mining
+
 
 
 `These tutorial videos are a small contribution to the society from my side.` **Happy Coding :)
