@@ -11,11 +11,11 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 * Blog posts 
 * Codes and instructions for 
-   +loading
-   -data manipulaton
-   -tidying
-   -visualization
-   -modelling
+   * loading
+   * data manipulaton
+   * tidying
+   * visualization
+   * modelling
 * Datasets
 * R codes in the form of scripts & markdown documents 
 
