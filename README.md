@@ -11,7 +11,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 * Blog posts 
 * Codes and instructions for 
-   -loading
+   +loading
    -data manipulaton
    -tidying
    -visualization
