@@ -18,11 +18,30 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
       + dplyr
       + forcats
       + data.table
-     + data tidying
-    + tidyr package
-    + broom package
+    + data tidying
+      + tidyr package
+      + broom package
    + visualization
+      + Base R
+      + ggplot2
+      + ggvis
+      + rbokeh
+      + plotly
    + modelling
+      + Supervised
+        + Linear modles
+        + Logit models (binary and multinominal classificatio)
+        + Tree based models (classification and regression)
+        + naive bayes classifier (Probabilistic models)
+        + k-nearest neighbour (classification)
+        + Ensemble learners (Boot strap aggregation, random forest, Boosting, Extreme gradient boosting)
+        + Support vector machines
+        + Neural networks
+      + Unsupervised
+        + Clustering
+        
+      
+      
 * Datasets
 * R codes in the form of scripts & markdown documents 
 
