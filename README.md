@@ -1,4 +1,4 @@
-# Welcome to [Rahul_CODIFY](https://www.youtube.com/channel/UCO4nlQjNTn15HFFNpOVUotg) blog posts
+# Welcome to [Rahul_CODIFY](https://www.youtube.com/channel/UCO4nlQjNTn15HFFNpOVUotg) (YouTube Channel) blog posts
 
 
 Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Rahul_CODIFY ! 
@@ -59,13 +59,10 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
       + Cross Validation
       + Performance metrices (Metrics package)
       + ROCR Curve
-      + F-measure
+      + F-measure 
       
-        
-      
-      
-* Datasets
-* R codes in the form of scripts & markdown documents 
+3. Datasets
+4. R codes in the form of scripts & markdown documents 
 
 
 ## The table of content
