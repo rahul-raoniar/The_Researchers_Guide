@@ -11,8 +11,8 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 ### This blog will include the following
 
-* Blog posts 
-* Codes and instructions for 
+1. Blog posts 
+2. Codes and instructions for 
    + Loading data into R
       + using base R and packages
    + Data manipulaton
