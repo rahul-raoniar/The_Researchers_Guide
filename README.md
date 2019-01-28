@@ -92,9 +92,9 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
      + ggvis
      + plotly
      + rbokeh
-* TS 9. R Markdown and Shiny report preparation 
-     + rmarkdown
-     + shiny
+* TS 9. R Markdown and Shiny 
+     + rmarkdown (markdown report preparation)
+     + shiny (Web application development)
 * TS 10. Statistics with R 
      + Basic statistics
      + Statistical Tests and Inferences from Data
