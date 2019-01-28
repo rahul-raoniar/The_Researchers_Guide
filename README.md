@@ -31,7 +31,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
       + plotly
    + Modelling
       + Supervised
-        + Linear modles
+        + Linear models
         + Logit models (binary and multinominal classificatio)
         + Tree based models (classification and regression)
         + naive bayes classifier (Probabilistic models)
