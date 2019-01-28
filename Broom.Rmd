@@ -1,0 +1,185 @@
+---
+title: "Broom_package"
+author: "Rahul Learning"
+date: "27 January 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Broom major functions
+
+1. ###*tidy*: Summarize information about fit components
+2. ###*glance*: report goodness of fit measures
+3. ###*augment*: add information about observations to a dataset
+
+```{r, message = FALSE}
+library(broom)
+library(tidyverse)
+library(knitr)
+
+```
+
+
+```{r}
+# take a glimpse of the data
+glimpse(mtcars)
+
+
+
+model1 <- lm(mpg~wt, data = mtcars)
+
+summary(model1)
+```
+
+```{r}
+# take a glance of the model fitting 
+
+glance(model1)
+
+
+```
+
+```{r}
+# take a glance of the model fitted values and stats
+
+augment(model1) %>% 
+  head()
+
+
+```
+
+```{r, echo = FALSE}
+# Print the coefficients
+kable2 <- function(data){
+  knitr::kable(mutate_if(data, is_numeric, round, 2))
+}
+
+tidy(model1) %>% 
+  kable2()
+
+```
+
+
+## Comparing multiple models at once
+
+```{r}
+
+fits <- list(
+  fit1 <- lm(hp ~ cyl, data = mtcars),
+  fit2 <- lm(hp ~ cyl + mpg, data = mtcars),
+  fit3 <- lm(hp ~ ., data = mtcars)
+)
+
+gof <- purrr::map_df(fits, glance, .id = "model") %>% 
+  arrange(AIC)
+
+gof
+
+```
+
+
+
+## Inspecting residuals from multiple linear regression
+
+
+```{r}
+
+fit <- lm(hp~., data = mtcars)
+au <- broom::augment(fit)
+au %>% 
+  head()
+
+
+p <- au %>% 
+  gather(x, val, -contains(".")) %>% 
+  ggplot(aes(x = val, y = .fitted)) +
+  geom_point() +
+  facet_wrap(~x, scales = "free") +
+  labs(x = "Predictpr values", y = "Residuals") +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+
+p
+```
+
+
+## Bootstrapping examples
+
+```{r}
+library(rsample)
+
+boots <- bootstraps(mtcars, times = 100)
+
+boots
+
+
+
+fit_nls_on_bootstrap <- function(split){
+  nls(               # non linear least square
+    mpg ~ k / wt + b,
+    analysis(split), # Convert a rsplit object to dataframe
+    start = list(k = 1, b = 0)
+  )
+}
+
+# Fitting model on bootstrap datasets
+
+boot_fits <- boots %>%
+  mutate(fit = map(splits, fit_nls_on_bootstrap),
+         coef_info = map(fit, tidy))
+
+boot_fits
+
+
+# Unnesting coefficient info
+
+boot_coefs <- boot_fits %>% 
+  unnest(coef_info)
+
+
+boot_coefs
+```
+
+
+## Plotting uncertainity
+```{r}
+p <- ggplot(boot_coefs, aes(x = estimate)) +
+  geom_histogram(binwidth = 2) +
+  facet_wrap(~ term, scales = "free") +
+  labs(
+    title = "Sampling distribution of k and b",
+    y = "count",
+    x = "Value"
+    )
+
+
+p
+
+
+
+```
+
+
+## Visualizing uncertainity and predictions
+
+
+```{r}
+boot_aug <- boot_fits %>% 
+  mutate(augmented = map(fit, augment)) %>% 
+  unnest(augmented)
+
+boot_aug %>% 
+  head()
+
+p <- ggplot(boot_aug, aes(x = wt, y = mpg)) +
+  geom_point() +
+  geom_line(aes(y = .fitted, group = id), alpha = 0.2)
+
+p
+
+```
