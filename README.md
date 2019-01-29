@@ -11,25 +11,25 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 ### This blog will include the following
 
-1. Blog posts 
-2. Codes and instructions for 
-   + Loading data into R
+1. `Blog posts` 
+2. `Codes and instructions for` 
+   + `Loading data into R`
       + using base R and packages
-   + Data manipulaton
+   + `Data manipulaton`
       + Using Base R
       + dplyr
       + forcats
       + data.table
-    + Data tidying
+    + `Data tidying`
       + tidyr package
       + broom package
-   + Visualization
+   + `Visualization`
       + Base R
       + ggplot2
       + ggvis
       + rbokeh
       + plotly
-   + Modelling
+   + `Modelling`
       + Supervised
         + Linear models
         + Logit models (binary and multinominal classification)
@@ -54,15 +54,15 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
           + Multidimensional Scaling
           + Singular Value Decomposition
           + Non-linear dimension reduction (ISOMAP and Locally Linear Embeding)
-    + Model Evaluation
+    + `Model Evaluation`
       + Contigency Table
       + Cross Validation
       + Performance metrices (Metrics package)
       + ROCR Curve
       + F-measure 
       
-3. Datasets
-4. R codes in the form of scripts & markdown documents 
+3. `Datasets`
+4. `R codes in the form of scripts & markdown documents` 
 
 
 ## The table of content
