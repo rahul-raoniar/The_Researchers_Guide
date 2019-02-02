@@ -32,7 +32,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
    + `Modelling`
       + Supervised
         + Linear models
-        + Logit models (binary and multinominal classification)
+        + Logit models (binary, multinominal classification and ordered)
         + Tree based models (classification and regression)
         + naive bayes classifier (Probabilistic models)
         + k-nearest neighbour (classification)
