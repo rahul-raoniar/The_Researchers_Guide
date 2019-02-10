@@ -23,12 +23,14 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
     + `Data tidying`
       + tidyr package
       + broom package
-   + `Visualization`
+   + `Static Visualization`
       + Base R
       + ggplot2
+   + Interactive Visualization
       + ggvis
       + rbokeh
       + plotly
+      + TrelliscopeJS (Big Data)
    + `Modelling`
       + Supervised
         + Linear models
@@ -64,6 +66,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
           + caret
           + mlr
           + H2O
+      + Interpretation of ML models using lime (Local Interpretable Model-Agnostic Explanations)
       
 3. `Datasets`
 4. `R codes in the form of scripts & markdown documents` 
