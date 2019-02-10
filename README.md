@@ -60,6 +60,10 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
       + Performance metrices (Metrics package)
       + ROCR Curve
       + F-measure 
+      + Hyperparameter tuning using
+          + caret
+          + mlr
+          + H2O
       
 3. `Datasets`
 4. `R codes in the form of scripts & markdown documents` 
