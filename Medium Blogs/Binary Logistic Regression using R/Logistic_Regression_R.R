@@ -280,11 +280,12 @@ library(yardstick)
 act_pred <- data.frame(observed = test$diabetes, predicted = factor(predicted))
 str(act_pred)
 
-
+accuracy_est <- accuracy(act_pred, observed, predicted)
 prec <- precision(act_pred, observed, predicted)
 rec <- recall(act_pred, observed, predicted)
 F1_score <- f_meas(act_pred, observed, predicted)
 
+print(accuracy_est)
 print(prec)
 print(rec)
 print(F1_score)
@@ -349,5 +350,5 @@ perf.tpr.fpr.rocr <- performance(pred.rocr, "tpr", "fpr")
 # Visualize ROC curve using plot function
 
 plot(perf.tpr.fpr.rocr, colorize=T, 
-     main = paste("AUC:", (perf.rocr@y.values)))
+     main = paste("AUC:", (perf_rocr@y.values)))
 abline(a = 0, b = 1)
