@@ -4,19 +4,17 @@
 
 # View dataset
 
-View(mtcars)
-
+head(mtcars)
 
 # Import tideverse library
 library(tidyverse)
 
-
+glimpse(mtcars)
 
 # Convert gear to categorical
 
 class(mtcars$gear)
 class(mtcars$am)
-
 
 mtcars$gear <- as.factor(mtcars$gear)
 mtcars$am <- as.factor(mtcars$am)
@@ -121,3 +119,30 @@ grid.arrange(plot3, plot2, plot4, plot1, nrow=2, ncol=2)
 
 
 
+
+## Method 3
+
+library(ggpubr)
+
+figure <- ggarrange(plot1, plot2, plot3, plot4,
+                    ncol = 2, nrow = 2)
+figure
+
+
+
+
+ggarrange(
+  plot4,    # plot4 in first row
+  ggarrange(plot1, plot2, ncol = 2), 
+  nrow = 2  # plot1 and plot2 in second row
+) 
+
+
+library(patchwork)
+install.packages("patchwork")
+
+plot1 + plot2
+
+
+(plot1 | plot2 | plot3) /
+  plot4
