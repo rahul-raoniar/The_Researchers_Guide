@@ -11,7 +11,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 
 ### The future blogs will include the following
 
-1. `Blog posts` 
+1. `Blog posts`: https://medium.com/@rahul.raoniar 
 2. `Codes and instructions for` 
    + `Loading data into R and Python`
       + using base Python and R packages
