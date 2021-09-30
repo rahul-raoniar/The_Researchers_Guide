@@ -76,6 +76,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
           + Scikit-learn
           + Pycaret
       + Interpretation of ML models using lime (Local Interpretable Model-Agnostic Explanations)
+      + Interpretation of ML models using SHAP (Shapley Additive Explanations)
       
 3. `Datasets`
 4. `Python and R codes in the form of scripts & markdown documents` 
