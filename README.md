@@ -7,25 +7,31 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 `"If you have knowledge, let others light their candles in it." - Margaret Fuller` 
 
 
-## *This is a R data Science Repository for Learning, Contributing and Improving Data Science Literacy*
+## *This is a Python and R data Science Repository for Learning, Contributing and Improving Data Science Literacy*
 
 ### The future blogs will include the following
 
 1. `Blog posts` 
 2. `Codes and instructions for` 
-   + `Loading data into R`
-      + using base R and packages
+   + `Loading data into R and Python`
+      + using base Python and R packages
    + `Data manipulaton`
       + Using Base R
       + dplyr
       + forcats
       + data.table
+      + Pandas
+      + dfply
     + `Data tidying`
       + tidyr package
       + broom package
+      + Pandas
    + `Static Visualization`
       + Base R
       + ggplot2
+      + Matplotlib
+      + Seaborn
+      + plotnine
    + Interactive Visualization
       + ggvis
       + rbokeh
@@ -33,14 +39,15 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
       + TrelliscopeJS (Big Data)
    + `Modelling`
       + Supervised
-        + Linear models
-        + Logit models (binary, multinominal classification and ordered)
+        + Linear + Linear mixed effect models
+        + Logit models (binary, multinominal classification and ordered) & Mixed effect models
+        + Survival Analysis [non-parametric, semi-parametric and full parametric models]
         + Tree based models (classification and regression)
         + naive bayes classifier (Probabilistic models)
         + k-nearest neighbour (classification)
         + Ensemble learners (Boot strap aggregation, random forest, Boosting, Extreme gradient boosting)
         + Support Vector Machines
-        + Neural Networks
+        + Neural Networks using Keras and Tensor Flow
            + shalow Neural Network (nntool, neuralnet packages)
            + Deep Neural Network (h2o, Keras, MXNet packages etc.)
         + Auto ML (h2o package)
@@ -66,10 +73,14 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
           + caret
           + mlr
           + H2O
+          + Scikit-learn
+          + Pycaret
       + Interpretation of ML models using lime (Local Interpretable Model-Agnostic Explanations)
       
 3. `Datasets`
-4. `R codes in the form of scripts & markdown documents` 
+4. `Python and R codes in the form of scripts & markdown documents` 
+5. Interactive dashboard using Tableau
+6. Web based application using Streamlit
 
 
 ## The table of content
@@ -77,17 +88,20 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 ### The upcoming tutorials will cover the following. 
 
 ** TS = Tutorial Series **
-* TS 1. Introduction to R 
+* TS 1. Introduction to R and Python
 * TS 2. Function 
 * TS 3. Loading, Data Extracting and Transforming 
-    + Base R, readr, readxl
+    + Base R and Python, readr, readxl, pandas
 * TS 4. Data Preparation 
-    + Base R
+    + Base R and Python
 * TS 5. Data Manipulation 
-    + dplyr and data.table 
+    + dplyr, data.table, dfply and pandas 
 * TS 6. Visualization using ggplot2 
     + Base R
     + ggplot2
+    + Plotnine
+    + Seaborn
+    + Matplotlib
 * TS 7. Map preparation
      + ggmap
      + tmap
@@ -96,12 +110,14 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
      + ggvis
      + plotly
      + rbokeh
-* TS 9. R Markdown and Shiny 
+* TS 9. R Markdown, Shiny and Streamlit
      + rmarkdown (markdown report preparation)
      + shiny (Web application development)
-* TS 10. Statistics with R 
+     + Streamlit (Web application development)
+* TS 10. Statistics with R and Python
      + Basic statistics
      + Statistical Tests and Inferences from Data
+     + Scipy stats
 * TS11. Supervised Machine learning 
    + Regression
    + Classification 
