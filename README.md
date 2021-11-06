@@ -1,4 +1,4 @@
-# Welcome to [Rahul_CODIFY](https://www.youtube.com/channel/UCO4nlQjNTn15HFFNpOVUotg) (YouTube Channel) blog posts
+# Welcome to [The Researchers' Guide](https://www.youtube.com/channel/UCO4nlQjNTn15HFFNpOVUotg) (YouTube Channel) blog posts
 
 
 Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Rahul_CODIFY ! 
