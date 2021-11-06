@@ -12,7 +12,7 @@ Hello, I am Rahul Raoniar (PhD Student at IIT Guwahati, India) and welcome to Ra
 ### The future Video blogs will include the following:
 
 1. `Blog posts` [For readers]: 
-2.    + https://medium.com/@rahul.raoniar 
+2.    + https://medium.com/the-researchers-guide
 3.    + https://onezero.blog/
 4. `Codes and instructions for` 
    + `Loading data into R and Python`
