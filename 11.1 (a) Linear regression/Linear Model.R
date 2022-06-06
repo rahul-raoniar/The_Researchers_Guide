@@ -1,10 +1,10 @@
-#####################################
+####################################
 # Supervised Learning
-#####################################
+####################################
 
-#####################################
+####################################
 ## Linear Regression
-#####################################
+####################################
 
 # Inbuilt dataset cars
 # The data give the speed of cars and the distances taken to stop
@@ -31,9 +31,6 @@ lm_model <- lm(dist ~ speed, data = cars)
 # Put a regression line on plot
 
 abline(lm_model, col = "blue")
-
-
-
 
 
 # Check model coefficients
@@ -68,9 +65,9 @@ abline(lm_model_2, col = "red")
 
 
 
-#####################################
+######################################
 # Regression summary and other details
-#####################################
+######################################
 
 summary(lm_model)
 
